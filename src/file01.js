@@ -1,11 +1,4 @@
-/**
- * TO-DO: 
- * Agregue "use strict"; al inicio de su archivo JavaScript para activar el modo estricto.
- * El modo estricto ayuda a detectar errores comunes y mejora la seguridad del código.
- * Referencia: https://javascript.info/strict-mode
- */
-
-
+"use strict";
 
 /** 
  * TO-DO: 
@@ -13,7 +6,7 @@
  * Referencia: https://javascript.info/import-export
  */
 
-
+import { setTitle } from './functions.js';
 
 /** 
  * TO-DO: 
@@ -22,7 +15,15 @@
  * Referencia: https://javascript.info/variables
  */
 
-
+const pageTitle = "Datos comparativos de frameworks JavaScript modernos";
+const pageId = "title";
 
 // TO-DO: Llama a la función setTitle para establecer el contenido del elemento HTML con el ID especificado
+
+
+setTitle(pageId, pageTitle);
+
+
+
+
 
